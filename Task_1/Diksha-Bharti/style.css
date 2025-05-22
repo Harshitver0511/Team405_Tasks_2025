@@ -1,0 +1,105 @@
+/* EXPORTING THE POPPINS FONT-FAMILY*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+    font-family:'Poppins';
+}
+
+/* Styling the To Do contsiner */
+body{
+    background-color:#e0f2f2;
+}
+
+.todo-app{
+    width:30%;
+    border:transparent;
+    margin:5rem auto;
+}
+#heading{
+    text-align:center;
+    margin-bottom:1rem;
+    font-size:28px;
+}
+#inputTodo{
+    display:grid;
+    grid-template-columns:80% 15%;
+    grid-gap:1rem;
+    margin-bottom:1.5rem;
+}
+#inputTodo input{
+    border:none;
+    outline:none;
+    padding:0.5rem;
+    border-radius:5px;
+}
+#addBtn{
+    background-color:rgb(15, 177, 15);
+    border:none;
+    border-radius:5px;
+    color:white;
+}
+#addBtn:hover{
+    opacity:0.6;
+}
+button:hover{
+    cursor: pointer;
+}
+#todos li{
+    display:grid;
+    background-color:white;
+    grid-template-columns:65% 10% 20%;
+    border:2px solid rgb(158, 156, 156);
+    border-radius:8px;
+    justify-content:space-around;
+    padding:0.5rem;
+    align-items:center;
+    margin-bottom:0.75rem;
+    user-select: none;
+}
+#todos li:hover{
+    background-color:rgba(200, 199, 199, 0.992);
+    transition-property:background-color;
+    transition-duration:0.2s;
+    transition-timing-function: ease-in-out;
+}
+#todos li button{
+    border:none;
+    background:transparent;
+    font-weight:700;
+    font-size:16px;
+}
+
+/*Additional css classes*/
+
+.editBtn{
+    color:rgb(158, 194, 38);
+}
+.deleteBtn{
+    color:rgb(191, 27, 27);
+}
+
+.strikeThrough{
+    text-decoration: line-through;
+}
+
+/*Responsiveness*/
+
+@media  screen and (max-width:1030px) and (min-width:769px){
+    .todo-app{
+        width:60%;
+    }
+}
+@media  screen and (max-width:768px) and (min-width:426px){
+    .todo-app{
+        width:70%;
+    }
+}
+@media screen and (max-width:426px) {
+    .todo-app{
+        width:90%;
+    }
+}
