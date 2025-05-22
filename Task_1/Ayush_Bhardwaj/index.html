@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    
+    <div class="main-content">
+        <h1>My To-Do List</h1>
+        <div class="task-input-container">
+            <label for="taskInput">Task Name:</label>
+            <input type="text" id="taskInput" placeholder="Task name"><br>
+            <label for="taskDate">Due Date:</label>
+            <input type="date" id="taskDate" placeholder="Due date"><br>
+            <button id="addTaskButton" onclick="addTask()">Add Task</button>
+        </div>
+        <div class="main-container">
+            <div class="task-list-header grid-row">
+                <span>Task Name</span>
+                <span>Added Date</span>
+                <span>Due Date</span>
+                <span>Actions</span>
+            </div>
+            <ul id="taskList">
+            </ul>
+        </div>
+    </div>
+
+    <div class="edit-panel-container none" id="editPanel">
+        <label for="editTaskInput">Task Name:</label>
+        <input type="text" id="editTaskInput" placeholder="Task name"><br>
+        <label for="editTaskDate">Due Date:</label>
+        <input type="date" id="editTaskDate" placeholder="Due date"><br>
+        <button id="saveEditButton" onclick="saveEdit()">Save</button>
+        <button id="cancelEditButton" onclick="cancelEdit()">Cancel</button>
+    </div>
+</body>
+
+</html>
