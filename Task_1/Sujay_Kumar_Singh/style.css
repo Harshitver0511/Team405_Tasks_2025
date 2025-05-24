@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background: url("2.gif");
+    background-repeat: no-repeat;
+    height:100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+.box{
+ width: 600px;
+ background-color: rgb(66, 63, 63);
+ box-sizing: border-box;
+ border-radius: 12px;
+ padding: 30px;
+ box-shadow: 3px 7px 6px rgb(71, 97, 113);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+.ref{
+
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+input{
+    width: 345px;
+    height: 35px;
+    border-radius: 8px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+button{
+    height: 35px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 7px;
+}
+h1{
+    color: aqua;
+}
+
+li{
+    color: white;
+}
+.task{
+    gap: 90px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    width: 300px;
+}
+.one{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(112, 210, 143);
+}
+.text{
+    font-size: 20px;
+}
