@@ -1,6 +1,7 @@
 
 Anantam
-Prateek Kumar Srivastav      
+Prateek Kumar Srivastav   
+Mohnish Pamnani   
 Diksha Bharti
  Ayush Bhardwaj
 
