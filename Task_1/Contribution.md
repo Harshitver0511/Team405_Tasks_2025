@@ -1,6 +1,5 @@
 
-Anantam
-Prateek Kumar Srivastav   
+Anantam 
 Mohnish Pamnani   
 Prateek Kumar Srivastav    
 Diksha Bharti
