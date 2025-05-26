@@ -1,0 +1,158 @@
+/* Global Reset and Font Addition*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f9fafc;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.input-section {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.input-section input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px;
+  width: 65%;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+}
+
+.input-section input:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.5);
+}
+
+/* Add Button */
+#addBtn {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease;
+}
+
+#addBtn:hover {
+  background-color: #43a047;
+}
+
+/* Task List Container */
+ul {
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Task */
+li {
+  list-style: none;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 12px 18px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #f7f7f7;
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+/* Checkbox Styling */
+.task-content input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #4CAF50;
+}
+
+/* Completed Task  */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Edit/Delete Buttons */
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Button Style */
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 6px;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.delete-btn {
+  color: #f44336;
+}
+
+.edit-btn {
+  color: #4CAF50;
+}
+
+/* Responsiveness */
+@media (max-width: 500px) {
+  .input-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .input-section input,
+  #addBtn {
+    width: 100%;
+  }
+
+  .btn-group {
+    gap: 6px;
+  }
+}
