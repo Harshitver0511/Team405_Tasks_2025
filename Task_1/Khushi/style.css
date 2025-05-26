@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling the To-Do Container */
+.todobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the Input and the Add button */
+.inputBox{
+    margin: 2rem;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+.inputBox h1{
+    font-size: 3rem;
+}
+.inputBox input, #Btn{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.inputBox input{
+    width: 70%;
+   border: 0.1px solid rgb(190, 188, 188);
+   transition: 2s;
+}
+#Btn{
+    width: 20%;
+    background-color: #089404;
+    color:#fff;
+    transition: 2s;
+    cursor: pointer;
+}
+#Btn:hover{
+    background-color: #48d343 ;
+}
+.inputBox input:hover{
+    border: 0.1px solid #48d343;
+}
+
+/* Styling the To-Do List */
+.todoList{
+    margin-top: 2rem;
+
+}
+.todoList li{
+    list-style-type: none;
+    border: 0.1px solid rgb(190, 188, 188);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.todoList li:hover{
+ background-color: rgb(240, 236, 236); 
+}
+.todoList li p{
+    font-size: 1.2rem;
+}
+
+/* Styling the buttons created in the to-do */
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.deleteBtn{
+    color: #ff0000;
+}
+
+.editBtn{
+    margin-left: auto;
+    color: #48d343;
+}
