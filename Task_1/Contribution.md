@@ -1,7 +1,9 @@
 
+
+Prateek Kumar Srivastav
+Khushi      
 Anantam 
-Mohnish Pamnani   
-Prateek Kumar Srivastav    
+Mohnish Pamnani      
 Diksha Bharti
 Nisshchaya Rathi
  Ayush Bhardwaj
