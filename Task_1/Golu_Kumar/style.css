@@ -1,0 +1,80 @@
+*{
+        margin: 0%;
+        padding: 0%;
+         font-family: 'Courier New', Courier, monospace;
+    }
+    #main{
+        height: 100vh;
+        width: 100vw;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav{
+        top: 40px;
+        position: relative;
+        height: 10vh;
+        width: 90%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #nav h1{
+        font-size: 2.5rem;
+    }
+    #toggle{
+        padding: 2px 5px;
+    }
+    #list-section{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .tasks{
+        display: flex;
+        width: 90vw;
+        border-radius: 10px;
+        /* height: 6vh; */
+        border: 1px solid rgb(107, 104, 104);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 12px;
+    }
+    .delete{
+        /* margin: 10px; */
+        background-color: red;
+        padding: 2px 4px;
+    }
+    .tasks p{
+        font-size: 1.5rem;
+    }
+    #input{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        gap: 5px;
+    }
+    #inp{
+        padding: 7px 20px;
+        border-radius: 10px;
+        border: 2px solid black;
+        font-size: 17px;
+    }
+    #add{
+        padding: 8px 15px;
+        background-color:rgb(19, 201, 19) ;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #add:hover{
+        background-color: rgb(21, 230, 42);
+
+    }
+    .brd{
+        border: 2px solid yellow;
+    }
