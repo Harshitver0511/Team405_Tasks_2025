@@ -14,7 +14,7 @@ This project is a simple and elegant image gallery built using React. The images
 - React
 - Tailwind (prefer) / bootstrap
 - Unsplash API
-- Material UI / any UI library
+- Material UI / any UI library (optional) 
 
 ## ScreenShot:
 ![WhatsApp Image 2024-06-01 at 15 38 49_0dc61b7f](https://github.com/dev04sa/Team405_Tasks/assets/129666293/544d954f-3879-438b-b11f-7035579a322b)
