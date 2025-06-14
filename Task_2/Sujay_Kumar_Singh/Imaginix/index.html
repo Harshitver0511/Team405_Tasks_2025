@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/index.css">
+  <title>Imaginix</title>
+</head>
+
+<body>
+
+  <header class="flex justify-between items-center bg-white md:p-5 m-0 md:gap-4 fixed w-full h-22 p-4">
+    <div class="flex justify-center items-center md:gap-7 gap-3 ">
+      <p class="font-extrabold md:text-5xl font-serif md:mr-3 md:ml-3 text-4xl">Imaginix</p>
+      <a href="#" class="responsive">Home</a>
+      <a target="_blank" class="responsive" href="https://www.instagram.com/_sujay_singh_rajput_/">Instagram</a>
+      <a target="_blank" class="responsive" href="https://www.linkedin.com/in/sujay-kumar-singh-0a1b3b324/">LinkedIn
+      </a>
+      <a class="responsive" href="mailto:sujaykumarsingh6228@gmail.com?subject=Support%20Imaginix">Contact</a>
+    </div>
+    <button class="bg-sky-600 md:w-30 h-12 p-2 rounded-lg text-white font-bold  mr-3 "
+      onclick="
+      document.getElementById('input').focus()
+    "> Get Started</button>
+  </header>
+  <hr class="border-[0.3px] border-gray-400">
+
+  <div class="flex flex-col text-center justify-center items-center w-full p-4 mt-39 gap-2">
+    <h1 class="font-extrabold text-5xl"> Elegant Image Gallery Powered By </h1>
+    <h1
+      class="font-extrabold text-5xl bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+      Unsplash API</h1>
+    <p class="text-gray-500  p-10">Imaginix is a modern and elegant image gallery web application built with React and
+      styled using Tailwind CSS. It seamlessly integrates with the Unsplash API to deliver a dynamic stream of stunning,
+      high-quality images from photographers around the world.</p>
+
+
+  </div>
+
+  <div id="root"></div>
+
+
+  <div class="bg-black flex  md:gap-10 p-6 items-center  mt-20 w-full  ">
+
+    <img width="50%" src="./src/assets/genkub-greeting-robot.gif" alt="">
+
+
+    <div class="flex flex-col md:gap-10 gap-2 p-0 justify-start items-start ">
+      <div class="flex flex-col  items-start justify-start">
+        <h1 class="text-white font-extrabold md:text-4xl text-start ">Design And Development</h1>
+        <p class="text-gray-500 md:text-2xl text-start">Sujay Kumar Singh</p>
+      </div>
+      <div>
+        <h1 class="text-white font-bold">Connect With us!</h1>
+
+        <div class="flex items-center gap-3 md:mt-3 mt-2">
+          <a target="_blank" href="https://www.instagram.com/_sujay_singh_rajput_/"><img class="size-10"
+              src="https://pngimg.com/uploads/instagram/instagram_PNG9.png" alt=""></a>
+          <a target="_blank" href="https://www.linkedin.com/in/sujay-kumar-singh-0a1b3b324/"><img class="size-9"
+              src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG2.png" alt=""></a>
+          <a target="_blank" href="mailto:sujaykumarsingh6228@gmail.com?subject=Support%20Imaginix"><img class="size-8"
+              src="https://pngimg.com/uploads/gmail_logo/gmail_logo_PNG4.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
