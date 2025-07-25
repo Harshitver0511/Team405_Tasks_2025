@@ -13,13 +13,7 @@ A responsive and dynamic image gallery built using **React**, **Tailwind CSS v4.
 - 🖼️ Responsive image grid with borders
 - ✅ Mobile and desktop support
 
----
-
-
-| Light Mode                         | Dark Mode                          |
-|------------------------------------|------------------------------------|
-| ![](./screenshots/light.png)       | ![](./screenshots/dark.png)        |
-
+  
 ---
 
 ## 🛠️ Tech Stack
@@ -27,7 +21,7 @@ A responsive and dynamic image gallery built using **React**, **Tailwind CSS v4.
 - **React** (with Vite)
 - **Tailwind CSS v4.1**
 - **Unsplash API**
-- **JavaScript (ES6+)**
+- **JavaScript **
 
 ---
 
@@ -49,3 +43,8 @@ Team405_Tasks/
 ├── README.md
 └── screenshots
 
+
+
+<img width="944" alt="ImageGallery SS" src="https://github.com/user-attachments/assets/a3b680de-b709-43fb-95d6-b4e48bfa3e73" />
+
+<img width="929" alt="ImageGallery SS 2" src="https://github.com/user-attachments/assets/6e877956-d582-4af0-80e7-da6189ea2b86" />
