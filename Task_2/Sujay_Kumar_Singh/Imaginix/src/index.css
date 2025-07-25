@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+@layer base{
+    a{
+        @apply text-gray-500 hover:text-sky-300;
+    }
+    
+}
+
+@layer components{
+    .btn{
+        @apply rounded-md p-2 hover:bg-transparent hover:bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 text-black hover:text-white font-bold font-[arial] outline-gray-300 outline-1 bg-gray-100
+    }
+    .responsive{
+       @apply md:[display:block] [display:none];
+    }
+}
