@@ -5,7 +5,7 @@ const Note = require("../models/Note");
 const logger = require("../middleware/logger");
 const auth = require("../middleware/auth");
 
-// Apply logging middleware to all routes
+// Apply logging middleware 
 router.use(logger);
 
 // @route   POST /notes
@@ -20,8 +20,8 @@ router.post("/", async (req, res) => {
   }
 });
 
-// @route   GET /notes/:email
-// @desc    Get notes by user email (Protected)
+// @route  GET /notes/:email
+// @desc  Get notes by user email (Protected)
 router.get("/:email", auth, async (req, res) => {
   try {
     const notes = await Note.find({ userEmail: req.params.email });
@@ -37,9 +37,8 @@ router.delete("/:id", async (req, res) => {
   try {
     await Note.findByIdAndDelete(req.params.id);
     res.json({ message: "Note deleted successfully" });
-  } catch (error) {
-    res.status(500).json({ message: "Error deleting note", error });
-  }
+  } 
+  catch (error) {res.status(500).json({ message: "Error deleting note", error }); }
 });
 
 module.exports = router;

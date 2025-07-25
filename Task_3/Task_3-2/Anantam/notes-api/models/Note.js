@@ -1,24 +1,22 @@
 const mongoose = require("mongoose");
 
-// Define the Note schema
 const noteSchema = new mongoose.Schema({
-  title: {
-    type: String,
-    required: true,
-    trim: true,
-  },
+  title: { type: String,
+           required: true,
+           trim: true,
+         },
   description: {
     type: String,
-    required: true,
+required: true,
   },
   userEmail: {
     type: String,
     required: true,
-    lowercase: true,
+lowercase: true,
   }
 }, {
-  timestamps: true  // adds createdAt and updatedAt
+  timestamps: true  // adds createdAt 
 });
 
-// Export the Note model
+
 module.exports = mongoose.model("Note", noteSchema);

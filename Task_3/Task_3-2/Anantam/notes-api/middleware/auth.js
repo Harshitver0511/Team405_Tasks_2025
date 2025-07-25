@@ -4,7 +4,4 @@ module.exports = (req, res, next) => {
 
   if (token === "123abc") {
     next(); // allow the request
-  } else {
-    res.status(401).json({ error: "Unauthorized. Invalid or missing token." });
-  }
-};
+  } else {res.status(401).json({ error: "Unauthorized. Invalid or missing token." });}};
