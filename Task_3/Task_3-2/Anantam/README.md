@@ -67,7 +67,12 @@ Tested using Postman:
 
 ✅ Delete note
 
-Screenshots available in /screenshots folder (or add yours here)
+Screenshots are:
+<img width="887" height="443" alt="Protect SS" src="https://github.com/user-attachments/assets/a5827297-499c-42a3-b3d7-4dea934033eb" />
+<img width="890" height="463" alt="Get SS" src="https://github.com/user-attachments/assets/e5e7ad79-f19d-4261-a626-dfb80280795b" />
+<img width="902" height="434" alt="Delete SS" src="https://github.com/user-attachments/assets/5c68af75-85c9-4387-b286-49aac5660294" />
+
+
 
 📁 Project Structure
 pgsql
@@ -81,10 +86,9 @@ notes-api/
 ├── package.json
 ├── .gitignore
 └── README.md
+
+
 🧰 Setup
-bash
-Copy
-Edit
 git clone https://github.com/anantamtiwari/notes-api.git
 cd notes-api
 npm install
