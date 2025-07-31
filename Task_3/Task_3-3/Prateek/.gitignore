@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+
+# Environment variables
+.env
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Runtime & temp files
+pids/
+*.pid
+*.pid.lock
+tmp/
+temp/
+.cache/
+
+# MongoDB dumps
+dump/
+
+# Test coverage
+coverage/
+
+# Output builds
+dist/
+build/
