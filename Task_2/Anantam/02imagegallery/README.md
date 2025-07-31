@@ -44,6 +44,7 @@ Team405_Tasks/
 └── screenshots
 
 
+
 <img width="944" alt="ImageGallery SS" src="https://github.com/user-attachments/assets/a3b680de-b709-43fb-95d6-b4e48bfa3e73" />
 
 <img width="929" alt="ImageGallery SS 2" src="https://github.com/user-attachments/assets/6e877956-d582-4af0-80e7-da6189ea2b86" />
